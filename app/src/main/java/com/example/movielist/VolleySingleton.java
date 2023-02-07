@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-
+// This is a volley singleton class
 public class VolleySingleton {
 
     private RequestQueue requestQueue;

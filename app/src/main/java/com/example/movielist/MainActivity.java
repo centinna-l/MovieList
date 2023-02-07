@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        // Setting the View to gone mode
         recyclerView.setVisibility(View.GONE);
 
 //        requestQueue = VolleySingleton.getmInstance(this).getRequestQueue();
